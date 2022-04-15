@@ -1,0 +1,42 @@
+.card {
+    padding: 1em;
+    margin: 1em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.main1 {
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+    margin: 0em 5em;
+}
+
+.content {
+    width: 350px;
+    text-align: center;
+}
+
+.title {
+    width: 350px;
+    text-align: center;
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    width: 100%;
+}
+
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%
+}
