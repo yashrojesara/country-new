@@ -10,7 +10,7 @@ const CountryForm: React.FC = () => {
     <div className="main">
       <TextField
         value={countryName}
-        inputProps={{ "data-testid": "country-search-input" }}
+        inputProps={{ "data-testid": "input" }}
         label="Enter Country"
         variant="outlined"
         margin="normal"
@@ -23,7 +23,7 @@ const CountryForm: React.FC = () => {
         variant="contained"
         color="primary"
         disabled={!countryName}
-        data-testid="submit-button"
+        data-testid="button"
       >
         Submit
       </Button>
